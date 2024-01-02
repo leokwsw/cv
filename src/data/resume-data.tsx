@@ -1,278 +1,309 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-} from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { GitHubIcon, LinkedInIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Leo Wu",
+  initials: "LW",
+  location: "Hong Kong",
+  locationLink: "https://www.google.com/maps/place/HongKong",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Experienced Developer focused on building products with extra attention to detail",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "Experienced Developer with over 4 years in the industry, specializing in Java, Python, and React.js. Skilled in advancing products from development to maintenance, adept at tailoring solutions to meet local market needs.",
+  avatarUrl: "https://avatars.githubusercontent.com/u/9302503?v=44",
+  personalWebsiteUrl: "https://leonardpark.dev",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "leokwsw@gmail.com",
+    tel: "+85267485283",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/leokwsw",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/leokwsw/",
         icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
-      },
+      }
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Hong Kong Institute of Vocational Education",
+      degree: "Mobile Applications Development (Higher Diploma)",
+      start: "2015.08",
+      end: "2019.02"
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
-      description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
+      company: "Octopus InfoTech Limited",
+      link: "https://octopus-tech.com",
       badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
+      title: "System Analysis",
+      start: "2023.06",
+      end: "2023.11",
       description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
+        "Assisted the development team in technical exploration during the research stage. Implemented and enhancement the OpenAI ChatGPT proxy server. Analyzed server usage, identified and resolved high memory usage, and optimized the system structure. Implemented Private Document Search with Chatbot using Python and Flask framework with OpenAI ChatGPT and LangChain." +
+        "Technologies: Go, Python, Flask, React, TypeScript, Java, Spring Boot, MongoDB, MySQL, Redis, JavaScript, Socket"
     },
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
+      company: "Octopus InfoTech Limited",
+      link: "https://octopus-tech.com",
       badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      title: "Programmer",
+      start: "2023.02",
+      end: "2023.05",
+      description:
+        "Invited partly developed and maintained RESTful APIs using Java with the Spring framework in in-house product. Maintained a website with React.js, JavaScript, and TypeScript. Implement Payment Gateway System." +
+        "Technologies: React, TypeScript, Java, Spring Boot, MongoDB, MySQL, Redis, JavaScript, Socket"
+    },
+    {
+      company: "Octopus InfoTech Limited",
+      link: "https://octopus-tech.com",
+      badges: [],
+      title: "Programmer",
+      start: "2021.10",
+      end: "2022.07",
+      description:
+        "Developed RESTful APIs using Java with the Spring Boot framework. Designed databases concurrently using MySQL and MongoDB for two different projects. Assisted the development team in technical exploration during the research stage. Participated in front-end development, creating iOS and Android apps using Apache Cordova. " +
+        "Technologies: Java, Spring Boot, MongoDB, MySQL, Redis, Node.js, JavaScript, Socket",
+    },
+    {
+      company: "Yoslock System Limited",
+      link: "https://www.yoslock.com",
+      badges: [],
+      title: "Junior Mobile Application Developer",
+      start: "2021.05",
+      end: "2021.07",
+      description:
+        "Developed and maintained in-house Cross-Platform App with Cordova. Created Apache Cordova Plugin Regular Face SDK and revamped Home and Support pages using Jinja2. " +
+        "Technologies: Java, Cordova, Jinja2"
+    },
+    {
+      company: "AfterSchool Education Limited",
+      link: "https://afterschool.com.hk",
+      badges: [],
+      title: "Android Developer",
+      start: "2018.02",
+      end: "2020.08",
+      description: "Focused on developing and maintaining in-house Android app. Facilitated the conversion of app development language (from Java-based to Kotlin-based app). Improved the user experience by adding extra handling for Android unique operating behavior. " +
+        "Technologies: Android, Java, Kotlin, TypeScript, Vue"
+    },
+    {
+      company: "Hong Kong Playground Association",
+      link: "https://hkpa.hk",
+      badges: [],
+      title: "Android Application Developer",
+      start: "2016.07",
+      end: "2017.05",
+      description: "Compiled a Content Management System for internal uses. Collaborated on a team of 4 to the characteristics of target users and their needs for app to develop Android app supporting the organization’s plan to implement systematized management. " +
+        "Technologies: Android, Java"
     },
   ],
   skills: [
+    "Java",
+    "Spring Boot",
+    "Kotlin",
     "JavaScript",
     "TypeScript",
-    "React/Next.js/Remix",
     "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Socket.io",
+    "Python"
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "Discord ChatBot",
       techStack: [
         "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "Python",
+        "Discord",
+        "OpenAI"
       ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
+      description: "Discord chatbot with google search and open weather tools",
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
+        href: "https://github.com/leokwsw/discord-chatbot"
+      }
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
+      title: "OpenAI TTS Gradio",
       techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "Side Project",
+        "Python",
+        "TTS",
+        "Gradio",
+        "OpenAI"
       ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
+      description: "Use OpenAI TTS(Text to Speech) API with Gradio",
       link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
+        href: "https://github.com/leokwsw/OpenAI-TTS-Gradio"
+      }
     },
     {
-      title: "Evercast",
+      title: "ChatGPT Android Client",
       techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "Side Project",
+        "Android",
+        "Kotlin",
+        "Jetpack Compose",
+        "OpenAI"
       ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
+      description: "Use Android Jetpack Create a ChatGPT Client",
       link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
+        href: "https://github.com/leokwsw/ChatGPT-Android-Jetpack"
+      }
     },
     {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
+      title: "OpenAI STT Gradio ",
+      techStack: [
+        "Side Project",
+        "Python",
+        "STT",
+        "Gradio",
+        "OpenAI"
+      ],
+      description: "Use OpenAI STT(Speech to Text) API with Gradio",
       link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
+        href: "https://github.com/leokwsw/OpenAI-STT-Gradio"
+      }
     },
     {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
+      title: "OpenAI DALL·E Gradio",
+      techStack: [
+        "Side Project",
+        "Python",
+        "DALL·E",
+        "Gradio",
+        "OpenAI"
+      ],
+      description: "Use OpenAI DALL·E API with Gradio",
       link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
+        href: "https://github.com/leokwsw/OpenAI-DALL_E-Gradio"
+      }
     },
     {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
+      title: "AI for Document Knowledge base",
+      techStack: [
+        "Python",
+        "AI",
+        "Vector Database"
+      ],
+      description: "Study the integration of LangChain, ChromaDB, and ElasticSearch for embedding text and PDFs into a Vector Database."
+    },
+    {
+      title: "AI Leave and substitute teaching system",
+      techStack: [
+        "Java",
+        "JavaScript"
+      ],
+      description: "Develop a Web Push Notification Module. For Google Chrome version 50+, Firefox version 47+, Desktop Safari 10+, Mobile Safari on iOS and iPadOS 16.4+"
+    },
+    {
+      title: "Node.js load balancer",
+      techStack: [
+        "Side Project",
+        "Node.js",
+        "Express",
+        "load balancer"
+      ],
+      description: "Use Express.js to simulation Nginx load balancer",
       link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
+        href: "https://github.com/leokwsw/nodejs-load-balancer"
+      }
     },
     {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
+      title: "iTeach",
+      techStack: [
+        "go",
+        "OpenAI",
+        "Android",
+        "iOS"
+      ],
+      description: "Implement OpenAI ChatGPT Proxy to project for teacher ask AI and generate question. Using Cordova to build iOS and Android App."
     },
     {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
+      title: "NowBook Digital Library",
+      techStack: [
+        "Java",
+        "SpringBoot",
+        "React.js",
+        "TypeScript"
+      ],
+      description: "An platform provides a diverse e-library with advanced reading features, catering to Hong Kong schools and individual users.",
+      link: {
+        href: "https://www.nblib.com/"
+      }
     },
     {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
+      title: "大千世界",
+      techStack: [
+        "iOS",
+        "Objective-C",
+        "Swift",
+        "JavaScript"
+      ],
+      description: "An mobile app uses AR technology to help students learn about global landmarks and cultures on campus.",
+      link: {
+        href: "https://apps.apple.com/hk/app/大千世界/id1602456372"
+      }
     },
+    {
+      title: "Yoswit",
+      techStack: [
+        "Java",
+        "Cordova",
+        "Objective-C",
+        "Jinja2"
+      ],
+      description: "An mobile app offers user-friendly, high-quality Bluetooth smart switches for easy home automation.",
+      link: {
+        href: "https://www.yoslock.com"
+      }
+    },
+    {
+      title: "AfterSchool",
+      techStack: [
+        "Android",
+        "Kotlin",
+        "TypeScript",
+        "Vue.js"
+      ],
+      description: "An online learning platform for secondary students to ask, discuss, earn rewards, and explore.",
+      link: {
+        href: "https://afterschool.com.hk"
+      }
+    },
+    {
+      title: "Emoji Keyboard",
+      techStack: [
+        "Side Project",
+        "Android",
+        "Kotlin"
+      ],
+      description: "A simple library to add Emoji support to your Android Application.",
+      link: {
+        href: "https://github.com/leokwsw/Emoji-Keyboard"
+      }
+    },
+    {
+      title: "Pixel Image",
+      techStack: [
+        "Side Project",
+        "Android",
+        "Kotlin"
+      ],
+      description: "Powerful library for Image Picker and Drawing on Image to your Android Application.",
+      link: {
+        href: "https://github.com/leokwsw/pixel-image"
+      }
+    },
+    {
+      title: "HKPA",
+      techStack: [
+        "Android",
+        "Java"
+      ],
+      description: "An platform to share campaign content, and "
+    }
   ],
 } as const;
