@@ -43,9 +43,8 @@ export const RESUME_DATA = {
       title: "System Analysis",
       start: "2023.06",
       end: "2023.11",
-      description:
-        "Assisted the development team in technical exploration during the research stage. Implemented and enhancement the OpenAI ChatGPT proxy server. Analyzed server usage, identified and resolved high memory usage, and optimized the system structure. Implemented Private Document Search with Chatbot using Python and Flask framework with OpenAI ChatGPT and LangChain." +
-        "Technologies: Go, Python, Flask, React, TypeScript, Java, Spring Boot, MongoDB, MySQL, Redis, JavaScript, Socket"
+      description: "Assisted the development team in technical exploration during the research stage. Implemented and enhancement the OpenAI ChatGPT proxy server. Analyzed server usage, identified and resolved high memory usage, and optimized the system structure. Implemented Private Document Search with Chatbot using Python and Flask framework with OpenAI ChatGPT and LangChain.",
+      sub_description: "Technologies: Go, Python, Flask, React, TypeScript, Java, Spring Boot, MongoDB, MySQL, Redis, JavaScript, Socket"
     },
     {
       company: "Octopus InfoTech Limited",
@@ -54,9 +53,8 @@ export const RESUME_DATA = {
       title: "Programmer",
       start: "2023.02",
       end: "2023.05",
-      description:
-        "Invited partly developed and maintained RESTful APIs using Java with the Spring framework in in-house product. Maintained a website with React.js, JavaScript, and TypeScript. Implement Payment Gateway System." +
-        "Technologies: React, TypeScript, Java, Spring Boot, MongoDB, MySQL, Redis, JavaScript, Socket"
+      description: "Invited partly developed and maintained RESTful APIs using Java with the Spring framework in in-house product. Maintained a website with React.js, JavaScript, and TypeScript. Implement Payment Gateway System.",
+      sub_description: "Technologies: React, TypeScript, Java, Spring Boot, MongoDB, MySQL, Redis, JavaScript, Socket"
     },
     {
       company: "Octopus InfoTech Limited",
@@ -65,9 +63,8 @@ export const RESUME_DATA = {
       title: "Programmer",
       start: "2021.10",
       end: "2022.07",
-      description:
-        "Developed RESTful APIs using Java with the Spring Boot framework. Designed databases concurrently using MySQL and MongoDB for two different projects. Assisted the development team in technical exploration during the research stage. Participated in front-end development, creating iOS and Android apps using Apache Cordova. " +
-        "Technologies: Java, Spring Boot, MongoDB, MySQL, Redis, Node.js, JavaScript, Socket",
+      description: "Developed RESTful APIs using Java with the Spring Boot framework. Designed databases concurrently using MySQL and MongoDB for two different projects. Assisted the development team in technical exploration during the research stage. Participated in front-end development, creating iOS and Android apps using Apache Cordova.",
+      sub_description: "Technologies: Java, Spring Boot, MongoDB, MySQL, Redis, Node.js, JavaScript, Socket"
     },
     {
       company: "Yoslock System Limited",
@@ -76,9 +73,8 @@ export const RESUME_DATA = {
       title: "Junior Mobile Application Developer",
       start: "2021.05",
       end: "2021.07",
-      description:
-        "Developed and maintained in-house Cross-Platform App with Cordova. Created Apache Cordova Plugin Regular Face SDK and revamped Home and Support pages using Jinja2. " +
-        "Technologies: Java, Cordova, Jinja2"
+      description: "Developed and maintained in-house Cross-Platform App with Cordova. Created Apache Cordova Plugin Regular Face SDK and revamped Home and Support pages using Jinja2. ",
+      sub_description: "Technologies: Java, Cordova, Jinja2"
     },
     {
       company: "AfterSchool Education Limited",
@@ -87,8 +83,8 @@ export const RESUME_DATA = {
       title: "Android Developer",
       start: "2018.02",
       end: "2020.08",
-      description: "Focused on developing and maintaining in-house Android app. Facilitated the conversion of app development language (from Java-based to Kotlin-based app). Improved the user experience by adding extra handling for Android unique operating behavior. " +
-        "Technologies: Android, Java, Kotlin, TypeScript, Vue"
+      description: "Focused on developing and maintaining in-house Android app. Facilitated the conversion of app development language (from Java-based to Kotlin-based app). Improved the user experience by adding extra handling for Android unique operating behavior. ",
+      sub_description: "Technologies: Android, Java, Kotlin, TypeScript, Vue"
     },
     {
       company: "Hong Kong Playground Association",
@@ -97,8 +93,8 @@ export const RESUME_DATA = {
       title: "Android Application Developer",
       start: "2016.07",
       end: "2017.05",
-      description: "Compiled a Content Management System for internal uses. Collaborated on a team of 4 to the characteristics of target users and their needs for app to develop Android app supporting the organization’s plan to implement systematized management. " +
-        "Technologies: Android, Java"
+      description: "Compiled a Content Management System for internal uses. Collaborated on a team of 4 to the characteristics of target users and their needs for app to develop Android app supporting the organization’s plan to implement systematized management. ",
+      sub_description: "Technologies: Android, Java"
     },
   ],
   skills: [
@@ -112,6 +108,20 @@ export const RESUME_DATA = {
     "Python"
   ],
   projects: [
+    {
+      title: "local rag",
+      techStack: [
+        "Side Project",
+        "Python",
+        "LLM",
+        "RAG",
+        "Unstructured"
+      ],
+      description: "how to use Unstructured to ingest and pre-process documents for local Retrieval-Augmented-Generation (RAG) application",
+      link: {
+        href: "https://github.com/leokwsw/local-rag"
+      }
+    },
     {
       title: "Discord ChatBot",
       techStack: [
@@ -247,19 +257,19 @@ export const RESUME_DATA = {
         href: "https://apps.apple.com/hk/app/大千世界/id1602456372"
       }
     },
-    {
-      title: "Yoswit",
-      techStack: [
-        "Java",
-        "Cordova",
-        "Objective-C",
-        "Jinja2"
-      ],
-      description: "An mobile app offers user-friendly, high-quality Bluetooth smart switches for easy home automation.",
-      link: {
-        href: "https://www.yoslock.com"
-      }
-    },
+    // {
+    //   title: "Yoswit",
+    //   techStack: [
+    //     "Java",
+    //     "Cordova",
+    //     "Objective-C",
+    //     "Jinja2"
+    //   ],
+    //   description: "An mobile app offers user-friendly, high-quality Bluetooth smart switches for easy home automation.",
+    //   link: {
+    //     href: "https://www.yoslock.com"
+    //   }
+    // },
     {
       title: "AfterSchool",
       techStack: [
@@ -297,13 +307,13 @@ export const RESUME_DATA = {
         href: "https://github.com/leokwsw/pixel-image"
       }
     },
-    {
-      title: "HKPA",
-      techStack: [
-        "Android",
-        "Java"
-      ],
-      description: "An platform to share campaign content, and "
-    }
+    // {
+    //   title: "HKPA",
+    //   techStack: [
+    //     "Android",
+    //     "Java"
+    //   ],
+    //   description: "An platform to share campaign content, and "
+    // }
   ],
 } as const;
