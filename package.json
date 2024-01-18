@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prod-docker-build": "sudo docker compose build",
+    "prod-docker-up": "sudo docker compose up -d",
+    "prod-docker-update": "npm run prod-docker-build && npm run prod-docker-up"
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.0.4",
