@@ -1,5 +1,5 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Card, CardHeader, CardContent } from "@/components/ui/card";
+import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { CommandMenu } from "@/components/command-menu";
 import { Metadata } from "next";
@@ -100,17 +100,25 @@ export default function Page() {
         </Section>
         <Section>
           <h2 className="text-xl font-bold">Work Experience</h2>
-          {RESUME_DATA.work.map((work) => {
+          {RESUME_DATA.work.map((work, index) => {
             return (
               <Card key={work.company}>
                 <CardHeader>
-                  <div className="flex items-center justify-between gap-x-2 text-base">
-                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
-                      <a className="hover:underline" href={work.link}>
-                        {work.company}
-                      </a>
+                  {
+                    index == 0 ||
+                    RESUME_DATA.work[index - 1].company != work.company ||
+                    (
+                      RESUME_DATA.work[index - 1].company == work.company &&
+                      parseInt(RESUME_DATA.work[index - 1].start.split(".")[1]) - parseInt(work.end.split(".")[1]) != 1
+                    )
+                      ? <>
+                        <div className="flex items-center justify-between gap-x-2 text-base">
+                          <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
+                            <a className="hover:underline" href={work.link}>
+                              {work.company}
+                            </a>
 
-                      <span className="inline-flex gap-x-1">
+                            <span className="inline-flex gap-x-1">
                         {work.badges.map((badge) => (
                           <Badge
                             variant="secondary"
@@ -121,18 +129,39 @@ export default function Page() {
                           </Badge>
                         ))}
                       </span>
-                    </h3>
-                    <div className="text-sm tabular-nums text-gray-500">
-                      {work.start} - {work.end}
-                    </div>
+                          </h3>
+                          <div className="text-sm tabular-nums text-gray-500">
+                            {work.start} - {work.end}
+                          </div>
+                        </div>
+                      </> : <>
+                      </>}
+
+                  <div className="flex items-center justify-between gap-x-2 text-base">
+
+                    <h4 className="font-mono text-sm leading-none">
+                      {work.title}
+                    </h4>
+
+                    {!(
+                      index == 0 ||
+                      RESUME_DATA.work[index - 1].company != work.company ||
+                      (
+                        RESUME_DATA.work[index - 1].company == work.company &&
+                        parseInt(RESUME_DATA.work[index - 1].start.split(".")[1]) - parseInt(work.end.split(".")[1]) != 1
+                      )
+                    ) ?
+                      <div className="text-sm tabular-nums text-gray-500">
+                        {work.start} - {work.end}
+                      </div> : <></>}
                   </div>
 
-                  <h4 className="font-mono text-sm leading-none">
-                    {work.title}
-                  </h4>
+
                 </CardHeader>
                 <CardContent className="mt-2 text-xs">
-                  {work.description}
+                  <ul style={{listStyle: 'unset !important', paddingLeft: '16px'}}>
+                    {work.description_list.map((item: string, index: number) => <li key={index}>{item}</li>)}
+                  </ul>
                 </CardContent>
                 <CardContent className="mt-2 text-xs">
                   {work.sub_description}

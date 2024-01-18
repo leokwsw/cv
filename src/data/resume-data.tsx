@@ -6,9 +6,9 @@ export const RESUME_DATA = {
   location: "Hong Kong",
   locationLink: "https://www.google.com/maps/place/HongKong",
   about:
-    "Experienced Developer focused on building products with extra attention to detail",
+    "Skilled developer with expertise in API development, system optimization, and mobile app creation across various technologies.",
   summary:
-    "Experienced Developer with over 4 years in the industry, specializing in Java, Python, and React.js. Skilled in advancing products from development to maintenance, adept at tailoring solutions to meet local market needs.",
+    "Experienced developer with expertise in system analysis, server optimization, API development, and mobile app creation. Skilled in Java, Python, Go, and modern web technologies, with a focus on efficient, user-centric solutions.",
   avatarUrl: "https://avatars.githubusercontent.com/u/9302503?v=44",
   personalWebsiteUrl: "https://leonardpark.dev",
   contact: {
@@ -44,7 +44,13 @@ export const RESUME_DATA = {
       start: "2023.06",
       end: "2023.11",
       description: "Assisted the development team in technical exploration during the research stage. Implemented and enhancement the OpenAI ChatGPT proxy server. Analyzed server usage, identified and resolved high memory usage, and optimized the system structure. Implemented Private Document Search with Chatbot using Python and Flask framework with OpenAI ChatGPT and LangChain.",
-      sub_description: "Technologies: Go, Python, Flask, React, TypeScript, Java, Spring Boot, MongoDB, MySQL, Redis, JavaScript, Socket"
+      description_list: [
+        "Assisted the development team in technical exploration during the research stage.",
+        "Analyzed server usage, identified and resolved high memory usage, and optimized the system structure.",
+        "Implemented and enhancement the OpenAI ChatGPT proxy server.",
+        "Researched and Implemented Knowledge Bases With RAG(retrieval-augmented-generation) and Fine tuning and ChatGPT and LangChain."
+      ],
+      sub_description: "Technologies: Go, Python, Flask, MongoDB"
     },
     {
       company: "Octopus InfoTech Limited",
@@ -54,6 +60,11 @@ export const RESUME_DATA = {
       start: "2023.02",
       end: "2023.05",
       description: "Invited partly developed and maintained RESTful APIs using Java with the Spring framework in in-house product. Maintained a website with React.js, JavaScript, and TypeScript. Implement Payment Gateway System.",
+      description_list: [
+        "Invited partly developed and maintained RESTful APIs using Java with the Spring framework in in-house product.",
+        "Maintained a website with React.js, JavaScript, and TypeScript.",
+        "Implement Payment Gateway System."
+      ],
       sub_description: "Technologies: React, TypeScript, Java, Spring Boot, MongoDB, MySQL, Redis, JavaScript, Socket"
     },
     {
@@ -64,6 +75,12 @@ export const RESUME_DATA = {
       start: "2021.10",
       end: "2022.07",
       description: "Developed RESTful APIs using Java with the Spring Boot framework. Designed databases concurrently using MySQL and MongoDB for two different projects. Assisted the development team in technical exploration during the research stage. Participated in front-end development, creating iOS and Android apps using Apache Cordova.",
+      description_list: [
+        "Developed RESTful APIs using Java with the Spring Boot framework.",
+        "Designed databases concurrently using MySQL and MongoDB for two different projects.",
+        "Assisted the development team in technical exploration during the research stage.",
+        "Participated in front-end development, creating iOS and Android apps using Apache Cordova."
+      ],
       sub_description: "Technologies: Java, Spring Boot, MongoDB, MySQL, Redis, Node.js, JavaScript, Socket"
     },
     {
@@ -74,6 +91,10 @@ export const RESUME_DATA = {
       start: "2021.05",
       end: "2021.07",
       description: "Developed and maintained in-house Cross-Platform App with Cordova. Created Apache Cordova Plugin Regular Face SDK and revamped Home and Support pages using Jinja2. ",
+      description_list: [
+        "Developed and maintained in-house Cross-Platform App with Cordova.",
+        "Created Apache Cordova Plugin Regular Face SDK and revamped Home and Support pages using Jinja2."
+      ],
       sub_description: "Technologies: Java, Cordova, Jinja2"
     },
     {
@@ -84,6 +105,11 @@ export const RESUME_DATA = {
       start: "2018.02",
       end: "2020.08",
       description: "Focused on developing and maintaining in-house Android app. Facilitated the conversion of app development language (from Java-based to Kotlin-based app). Improved the user experience by adding extra handling for Android unique operating behavior. ",
+      description_list: [
+        "Focused on developing and maintaining in-house Android app.",
+        "Facilitated the conversion of app development language (from Java-based to Kotlin-based app).",
+        "Improved the user experience by adding extra handling for Android unique operating behavior."
+      ],
       sub_description: "Technologies: Android, Java, Kotlin, TypeScript, Vue"
     },
     {
@@ -94,6 +120,10 @@ export const RESUME_DATA = {
       start: "2016.07",
       end: "2017.05",
       description: "Compiled a Content Management System for internal uses. Collaborated on a team of 4 to the characteristics of target users and their needs for app to develop Android app supporting the organization’s plan to implement systematized management. ",
+      description_list: [
+        "Compiled a Content Management System for internal uses.",
+        "Collaborated on a team of 4 to the characteristics of target users and their needs for app to develop Android app supporting the organization’s plan to implement systematized management. "
+      ],
       sub_description: "Technologies: Android, Java"
     },
   ],
@@ -117,7 +147,7 @@ export const RESUME_DATA = {
         "RAG",
         "Unstructured"
       ],
-      description: "how to use Unstructured to ingest and pre-process documents for local Retrieval-Augmented-Generation (RAG) application",
+      description: "Use Unstructured to ingest and pre-process documents for local RAG(retrieval-augmented-generation) application",
       link: {
         href: "https://github.com/leokwsw/local-rag"
       }
@@ -257,19 +287,19 @@ export const RESUME_DATA = {
         href: "https://apps.apple.com/hk/app/大千世界/id1602456372"
       }
     },
-    // {
-    //   title: "Yoswit",
-    //   techStack: [
-    //     "Java",
-    //     "Cordova",
-    //     "Objective-C",
-    //     "Jinja2"
-    //   ],
-    //   description: "An mobile app offers user-friendly, high-quality Bluetooth smart switches for easy home automation.",
-    //   link: {
-    //     href: "https://www.yoslock.com"
-    //   }
-    // },
+    {
+      title: "Yoswit",
+      techStack: [
+        "Java",
+        "Cordova",
+        "Objective-C",
+        "Jinja2"
+      ],
+      description: "An mobile app offers user-friendly, high-quality Bluetooth smart switches for easy home automation.",
+      link: {
+        href: "https://www.yoslock.com"
+      }
+    },
     {
       title: "AfterSchool",
       techStack: [
