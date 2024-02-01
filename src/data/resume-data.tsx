@@ -130,12 +130,16 @@ export const RESUME_DATA = {
   skills: [
     "Java",
     "Spring Boot",
+    "Android",
     "Kotlin",
     "JavaScript",
     "TypeScript",
     "Node.js",
     "Socket.io",
-    "Python"
+    "Python",
+    "React",
+    "Vue",
+    "Go"
   ],
   projects: [
     {
